@@ -1,0 +1,32 @@
+.App .Button {
+	padding: 0.5em;
+
+	background-color: lightblue;
+
+	display: inline-block;
+	border: 1px solid black;
+}
+
+	.App .Button.fail {
+		background-color: pink;
+	}
+
+	.App .Button.success {
+		background-color: lightgreen;
+	}
+
+	.App .Button:not(:first-child) {
+		margin-left: 0.5em;
+	}
+
+.App .WordBox {
+	padding: 0.5em;
+	border: 1px solid black;
+}
+
+.App .Score {
+	padding: 0.5em;
+	border: 1px solid black;
+}
+
+/*# sourceMappingURL=/hyy-alias.f69400ca.css.map */
