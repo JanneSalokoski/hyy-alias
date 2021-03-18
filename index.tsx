@@ -10,6 +10,7 @@ function enable_hmr() {
 }
 
 function render_application() {
+	console.log('testi')
 	ReactDOM.render(
 		<App />,
 		document.getElementById('root')
@@ -20,3 +21,5 @@ function main() {
 	enable_hmr()
 	render_application()
 }
+
+main()
